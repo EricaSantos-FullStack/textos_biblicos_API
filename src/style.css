@@ -1,0 +1,30 @@
+#lista {
+  width: 100%;
+  padding: 50px;
+  margin: 20px;
+  border: 15px solid rgba(40, 134, 228, 0.255);
+  box-shadow: rgba(220, 226, 233, 0.35) 0px 5px 15px;
+  } 
+
+.form-control:disabled {
+  background-color: rgba(40, 134, 228, 0.255);
+  opacity: 1;
+  color: rgb(52, 53, 54);
+}
+
+.btn-success {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #58b7cc;
+  --bs-btn-border-color: #548f9c;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #548f9c;
+  --bs-btn-hover-border-color: #548f9c;
+  --bs-btn-focus-shadow-rgb: 60,153,110;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #548f9c;
+  --bs-btn-active-border-color: #548f9c;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #548f9c;
+  --bs-btn-disabled-border-color: #548f9c;
+}
